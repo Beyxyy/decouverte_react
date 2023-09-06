@@ -4,9 +4,14 @@ import Etude from './Components/Etude';
 import MoiMeme from './Components/MoiMeme';
 import Pro from './Components/Pro';
 import Ville from './Components/Ville';
+import Counter from './Components/Counter';
+import Chat from './Components/Chat';
+import React, {useState} from 'react';
 
 
 function App() {
+  
+
   const villes =[
     {
         id : 1,
@@ -32,6 +37,10 @@ function App() {
     <Pro/>
 
     <Ville villes={villes}/>
+
+    <Counter/>
+
+    <Chat/>
     </>
   );
 
