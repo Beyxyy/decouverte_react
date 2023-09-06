@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+    
+
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type='text/babel'>
+
+
+
+
+        function MyContent(){
+            return <div>TEMA LA TAILLE DU RAT</div>
+        }
+
+          ReactDOM.render(
+            <><MoiMeme/> <Etude/><Pro/></>,
+            document.getElementById('root')
+        );
+
+
+
+        function MoiMeme(){
+            return <div>
+                <div className="nom">Je m'appelle anthony et je suis étudiant en MMI</div>
+            </div>
+        }
+        
+        
+        function Etude(){
+            return <div>
+                <ul className="etude">
+                    <li>Je suis étudiant en MMI en 3eme année</li>
+                    <li>J'ai étudié au lycée Jean Jacques Henner en spécialisation NSI et Mathématiques</li>
+                    <li>J'ai fait mes années de collège à dannemarie dans le collège Jean Monnet</li>
+                        
+                        </ul>
+            </div>;
+        }
+        
+        
+        function Pro(){
+            return <div>
+                <div className="professionel">Je suis en alternance au sein de l'équipe de développement web de l'entreprise Cibeo</div>
+            </div>
+        }
+        </script>
+
+</body>
+</html>

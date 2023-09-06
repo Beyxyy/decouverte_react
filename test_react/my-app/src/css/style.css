@@ -1,0 +1,9 @@
+.menu_flex{
+    display : flex;
+    justify-content: center;
+}
+
+.professionel{
+    background-color : blue;
+    color : white;
+}
